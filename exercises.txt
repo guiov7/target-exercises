@@ -1,0 +1,50 @@
+1. Dado a sequência de Fibonacci, onde se inicia por 0 e 1 e o próximo valor sempre será a soma dos 2 valores 
+anteriores (exemplo: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...), escreva um programa na linguagem que desejar onde, 
+informado um número, ele calcule a sequência de Fibonacci e retorne uma mensagem avisando se o número informado 
+pertence ou não a sequência.
+IMPORTANTE: Esse número pode ser informado através de qualquer entrada de sua preferência ou pode ser previamente 
+definido no código;
+(Solução no file 'Ex1.java')
+
+2. Escreva um programa que verifique, em uma string, a existência da letra ‘a’, seja maiúscula ou minúscula, além 
+de informar a quantidade de vezes em que ela ocorre.
+IMPORTANTE: Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente 
+definida no código;
+(Solução no file 'Ex2.java')
+
+3. Observe o trecho de código abaixo:
+ int INDICE = 12, SOMA = 0, K = 1; enquanto K < INDICE faça { K = K + 1; SOMA = SOMA + K; } imprimir(SOMA);
+Ao final do processamento, qual será o valor da variável SOMA? 77 
+(algoritmo da questão no file 'ex3.java')
+
+4. Descubra a lógica e complete o próximo elemento:
+a - 1, 3, 5, 7, '9'
+R. O antecessor acrescido de 2 é o próximo.
+
+b - 2, 4, 8, 16, 32, 64, '128' 
+R. O antecessor multiplicado por 2 é o próximo.
+
+c - 0, 1, 4, 9, 16, 25, 36, '49'
+R. Cada elemento acrescido do próximo ímpar sequencia da presente posição.
+
+d - 4, 16, 36, 64, '96'
+R. Cada elemento possui dois dígitos, a cada posição o primeiro dígito soma 
+com o dígito primeiro da posição anterior e o segundo dígito mantém-se entre o '4' ou '6' em um padrão de repetição.
+
+e - 1, 1, 2, 3, 5, 8, '13'
+R. Somar as duas posições antecedentes, resulta no valor sequente.
+
+f - 2, 10, 12, 16, 17, 18, 19, '3'
+R. A sequencia se reinicia progredindo sucessivamente, penso que 
+poderia continuar assim '3','20','22','26','27','28','29','4', ...
+
+
+5. Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em salas diferentes. Você não pode 
+ver as lâmpadas da sala em que está, mas pode ligar e desligar os interruptores quantas vezes quiser. Seu objetivo 
+é descobrir qual interruptor controla qual lâmpada. Como você faria para descobrir, usando apenas duas idas até uma 
+das salas das lâmpadas, qual interruptor controla cada lâmpada?  
+R. Penso que na primeira ida eu deixaria dois interruptores desligados, assim iria descobrir uma única conexão; assim 
+sendo, ao retornar bastaria apagar o interruptor da qual tomei conhecimento e dentre os outros dois manter um único 
+ligado e ao ir novamente tomaria conhecimento de uma segunda conexão; o único interruptor que o qual não me dirigi à  
+sala é silogicamente o da conexão que não pude visualizar acesa. 
+Portanto, assim entendo qual interruptor controla cada conexão.
